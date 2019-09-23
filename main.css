@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    padding-left: 5rem;
+    margin: 1rem;
+    color: lightgrey;
+}
+
+div {
+    padding: .01rem 0;
+}
+
+body {
+    background-color: rgb(85, 81, 81)
+}
+
+.container {
+    max-width: 90vw;
+    display: flex; 
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.customerCard { 
+    max-width: 20vw;
+    padding: 1rem;
+    margin: .5rem;
+    text-align: center;
+    background-color: lightgrey;
+    border-radius: 30% 30% 10% 10%;
+}
+
+.customerCard:hover {
+    background-color: darkgrey;
+}
+
+.customerImg {
+    border-radius: 40% 40% 20% 20%;
+    text-align: center;
+}
+
+.name {
+    font-weight: bold;
+}
+
+.name, .address {
+    text-transform: capitalize;
+}
+
